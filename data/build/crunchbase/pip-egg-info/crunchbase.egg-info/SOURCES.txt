@@ -1,0 +1,10 @@
+crunchbase/__init__.py
+crunchbase/crunchbase.py
+pip-egg-info/crunchbase.egg-info/PKG-INFO
+pip-egg-info/crunchbase.egg-info/SOURCES.txt
+pip-egg-info/crunchbase.egg-info/dependency_links.txt
+pip-egg-info/crunchbase.egg-info/requires.txt
+pip-egg-info/crunchbase.egg-info/top_level.txt
+scripts/crunchbase
+test/__init__.py
+test/test_crunchbase.py
