@@ -1,0 +1,120 @@
+{
+  "@context": {
+    "cbi_acquisition": "http://www.newsreader-project.eu/rdf/instance/acquisition/",
+    "cbi_milestone": "http://www.newsreader-project.eu/rdf/instance/milestone/",
+    "cbi_relationship": "http://www.newsreader-project.eu/rdf/instance/relationship/",
+    "cbi_ipo": "http://www.newsreader-project.eu/rdf/instance/ipo/",
+    "cbi_company": "http://www.newsreader-project.eu/rdf/instance/company/",
+    "cbi_founding": "http://www.newsreader-project.eu/rdf/instance/founding/",
+    "cbi_person": "http://www.newsreader-project.eu/rdf/instance/person/",
+    "cbi_funding_round": "http://www.newsreader-project.eu/rdf/instance/funding_round/",
+    "cbi_investment": "http://www.newsreader-project.eu/rdf/instance/investment/",
+    "cbi_financial_organization": "http://www.newsreader-project.eu/rdf/instance/financial_organization/",
+    "cbi_service_provider": "http://www.newsreader-project.eu/rdf/instance/service_provider/",
+    "cbi_providership": "http://www.newsreader-project.eu/rdf/instance/providership/",
+    "dbi_degree": "http://www.newsreader-project.eu/rdf/instance/degree/",
+    "cbo": "http://www.newsreader-project.eu/rdf/ontology/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "sem": "http://semanticweb.cs.vu.nl/2009/11/sem/"
+  },
+  "@graph": [
+    {
+      "@id": "cbi_investment:jonathan-kaplan-invested-in-beyond-lucid-technologies-on-2012-6-19",
+      "@type": "sem:Event",
+      "cbo:hasCurrency": "USD",
+      "cbo:hasInvestee": {
+        "@id": "cbi_company:beyond-lucid-technologies"
+      },
+      "cbo:hasInvestor": {
+        "@id": "cbi_person:jonathan-kaplan"
+      },
+      "cbo:hasRoundCode": "seed",
+      "rdfs:seeAlso": {
+        "@id": "http://www.beyondlucid.com/Company/NewsandEvents/NewsRelease19June2012.aspx"
+      },
+      "sem:eventType": {
+        "@id": "cbo:Investment"
+      },
+      "sem:hasAmount": {
+        "@value": "1.0E5",
+        "@type": "xsd:double"
+      },
+      "sem:hasTime": "2012-6-19"
+    },
+    {
+      "@id": "cbi_milestone:jonathan-kaplan-milestone-on-2008-9-30",
+      "@type": "sem:Event",
+      "cbo:hasPerson": {
+        "@id": "cbi_person:jonathan-kaplan"
+      },
+      "rdfs:label": "Named one of Time Magazine's top 25 most influential people on the web (2008)",
+      "rdfs:seeAlso": {
+        "@id": "http://images.businessweek.com/ss/08/09/0929_most_influential/1.htm"
+      },
+      "sem:eventType": {
+        "@id": "cbo:Milestone"
+      },
+      "sem:hasTime": "2008-9-30"
+    },
+    {
+      "@id": "cbi_person:jonathan-kaplan",
+      "@type": "sem:Actor",
+      "rdfs:label": "Jonathan Kaplan",
+      "sem:actorType": {
+        "@id": "cbo:Person"
+      }
+    },
+    {
+      "@id": "cbi_relationship:jonathan-kaplan-related-to-pure-digital-technologies",
+      "@type": "sem:Event",
+      "cbo:hasFirm": {
+        "@id": "cbi_company:pure-digital-technologies"
+      },
+      "cbo:hasPerson": {
+        "@id": "cbi_person:jonathan-kaplan"
+      },
+      "cbo:isPast": {
+        "@value": "false",
+        "@type": "xsd:boolean"
+      },
+      "sem:eventType": {
+        "@id": "cbo:Relationship"
+      }
+    },
+    {
+      "@id": "cbi_relationship:jonathan-kaplan-related-to-sugar",
+      "@type": "sem:Event",
+      "cbo:hasFirm": {
+        "@id": "cbi_company:sugar"
+      },
+      "cbo:hasPerson": {
+        "@id": "cbi_person:jonathan-kaplan"
+      },
+      "cbo:isPast": {
+        "@value": "false",
+        "@type": "xsd:boolean"
+      },
+      "sem:eventType": {
+        "@id": "cbo:Relationship"
+      }
+    },
+    {
+      "@id": "cbi_relationship:jonathan-kaplan-related-to-wave-universal",
+      "@type": "sem:Event",
+      "cbo:hasFirm": {
+        "@id": "cbi_company:wave-universal"
+      },
+      "cbo:hasPerson": {
+        "@id": "cbi_person:jonathan-kaplan"
+      },
+      "cbo:isPast": {
+        "@value": "false",
+        "@type": "xsd:boolean"
+      },
+      "sem:eventType": {
+        "@id": "cbo:Relationship"
+      }
+    }
+  ]
+}
