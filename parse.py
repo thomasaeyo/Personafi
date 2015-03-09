@@ -19,10 +19,13 @@ def init_people_list():
 	with open('names.txt','a') as namelist, open('person.json') as f:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 		namelist.seek(0)
 		namelist.truncate()
 =======
 >>>>>>> 09f3195f26176ef3358671d9ff817004c880f209
+=======
+>>>>>>> 1a0e88121cfde0aa52b55606f85f54fc1cfac5c9
 =======
 >>>>>>> 1a0e88121cfde0aa52b55606f85f54fc1cfac5c9
 		for line in f:
@@ -33,6 +36,7 @@ def init_people_list():
 				m1 = r1.match(line)
 				namelist.write(m1.group(1)+"\n")
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 def remove_dups():
@@ -48,6 +52,8 @@ def remove_dups():
 >>>>>>> 09f3195f26176ef3358671d9ff817004c880f209
 =======
 >>>>>>> 1a0e88121cfde0aa52b55606f85f54fc1cfac5c9
+=======
+>>>>>>> 1a0e88121cfde0aa52b55606f85f54fc1cfac5c9
 # def init_people_list():
 # 	people = open('person.json')
 # 		peoplelist = people['@id']['items']
@@ -61,6 +67,7 @@ def remove_dups():
 # 			json.dump(data, f)
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 # def generate_tags():
@@ -105,6 +112,8 @@ def remove_dups():
 >>>>>>> 09f3195f26176ef3358671d9ff817004c880f209
 =======
 >>>>>>> 1a0e88121cfde0aa52b55606f85f54fc1cfac5c9
+=======
+>>>>>>> 1a0e88121cfde0aa52b55606f85f54fc1cfac5c9
 def generate_tags():
 	people_list = open('data/unique.txt').readlines()
 	# print len(people_list)
@@ -124,6 +133,7 @@ def generate_tags():
 	with open('data/data3.txt','w') as f:
 		json.dump(person_dict,f)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 
@@ -147,6 +157,8 @@ def generate_tags():
 >>>>>>> 09f3195f26176ef3358671d9ff817004c880f209
 =======
 >>>>>>> 1a0e88121cfde0aa52b55606f85f54fc1cfac5c9
+=======
+>>>>>>> 1a0e88121cfde0aa52b55606f85f54fc1cfac5c9
 def get_distance_matrix(matrix):
 	distance_m = np.zeros(shape=(matrix.shape[0],matrix.shape[0]))
 	for i,i_vector in enumerate(matrix):
@@ -160,11 +172,17 @@ def get_distance_matrix(matrix):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 
 
 >>>>>>> 09f3195f26176ef3358671d9ff817004c880f209
+=======
+
+
+
+>>>>>>> 1a0e88121cfde0aa52b55606f85f54fc1cfac5c9
 =======
 
 
@@ -178,7 +196,10 @@ matrix = np.matrix(m).astype(float)
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 1a0e88121cfde0aa52b55606f85f54fc1cfac5c9
 =======
 >>>>>>> 1a0e88121cfde0aa52b55606f85f54fc1cfac5c9
 
@@ -188,6 +209,9 @@ init_people_list()
 # print DataFrame(personToTag).T.fillna(0)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 09f3195f26176ef3358671d9ff817004c880f209
+=======
+>>>>>>> 1a0e88121cfde0aa52b55606f85f54fc1cfac5c9
 =======
 >>>>>>> 1a0e88121cfde0aa52b55606f85f54fc1cfac5c9
