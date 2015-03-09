@@ -16,7 +16,7 @@ def makeGraph():
 				G.add_node(pair[0])
 			if pair[1] not in person_seen: 
 				G.add_node(pair[1])
-			weight= re.search(r"\d*)?", pair[2])
+			pair[2] = pair[2]
 			if int(weight) > 0:
 				print weight
 				G.add_edge(pair[0], pair[1], weight=pair[2])
